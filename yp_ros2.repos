@@ -1,0 +1,29 @@
+repositories:
+  ypspur_ros_bridge:
+    type: git
+    url: https://github.com/sgk-000/ypspur_ros_bridge.git
+    version: ros2
+  urg_node:
+    type: git
+    url: https://github.com/sgk-000/urg_node.git
+    version: yamabiko
+  slam_toolbox: #TODO: chenge use_sim time to false in online sync
+    type: git
+    url: https://github.com/SteveMacenski/slam_toolbox.git
+    version: ros2
+  teleop_twist_joy:
+    type: git
+    url: https://github.com/ros2/teleop_twist_joy.git
+    version: foxy
+  yp_launch:
+    type: git
+    url: https://github.com/sgk-000/yp_launch.git
+    version: ros2
+  yp-robot-params:
+    type: git
+    url: http://www.roboken.iit.tsukuba.ac.jp/platform/repos/yp-robot-params.git
+    version: master
+  navigation2
+    type: git
+    url: https://github.com/ros-planning/navigation2.git
+    version: main
