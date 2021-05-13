@@ -23,7 +23,7 @@ repositories:
     type: git
     url: http://www.roboken.iit.tsukuba.ac.jp/platform/repos/yp-robot-params.git
     version: master
-  navigation2
+  yp_navigation2:
     type: git
-    url: https://github.com/ros-planning/navigation2.git
-    version: main
+    url: https://github.com/sgk-000/yp_navigation2.git
+    version: yp-foxy-devel
