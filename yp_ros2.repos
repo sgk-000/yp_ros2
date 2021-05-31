@@ -19,11 +19,15 @@ repositories:
     type: git
     url: https://github.com/sgk-000/yp_launch.git
     version: ros2
-  yp-robot-params:
+  yp_robot_config:
     type: git
-    url: http://www.roboken.iit.tsukuba.ac.jp/platform/repos/yp-robot-params.git
-    version: master
+    url: https://github.com/dlab-ut/yp_robot_config.git
+    version: main
   yp_navigation2:
     type: git
     url: https://github.com/sgk-000/yp_navigation2.git
     version: yp-foxy-devel
+  groot:
+    type: git
+    url: https://github.com/BehaviorTree/Groot.git
+    version: master
