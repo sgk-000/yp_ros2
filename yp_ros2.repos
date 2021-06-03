@@ -3,10 +3,18 @@ repositories:
     type: git
     url: https://github.com/sgk-000/ypspur_ros_bridge.git
     version: ros2
+  urg_node:
+    type: git
+    url: https://github.com/sgk-000/urg_node.git
+    version: yamabiko
   slam_toolbox: #TODO: chenge use_sim time to false in online sync
     type: git
     url: https://github.com/SteveMacenski/slam_toolbox.git
     version: ros2
+  teleop_twist_joy:
+    type: git
+    url: https://github.com/ros2/teleop_twist_joy.git
+    version: foxy
   yp_launch:
     type: git
     url: https://github.com/sgk-000/yp_launch.git
@@ -23,22 +31,3 @@ repositories:
     type: git
     url: https://github.com/BehaviorTree/Groot.git
     version: master
-  autoware:
-    type: git
-    url: https://gitlab.com/autowarefoundation/autoware.auto/AutowareAuto.git
-    version: v0.11.1
-
-  #drivers  
-  yp_drivers/hokuyo3d:
-    type: git
-    url: https://github.com/at-wat/hokuyo3d.git
-    version: ros2
-    yp_drivers/urg_node:
-    type: git
-    url: https://github.com/sgk-000/urg_node.git
-    version: yamabiko
-  yp_drivers/teleop_twist_joy:
-    type: git
-    url: https://github.com/ros2/teleop_twist_joy.git
-    version: foxy
-  
