@@ -1,8 +1,4 @@
 repositories:
-  ypspur_ros_bridge:
-    type: git
-    url: https://github.com/sgk-000/ypspur_ros_bridge.git
-    version: ros2
   slam_toolbox: #TODO: chenge use_sim time to false in online sync
     type: git
     url: https://github.com/SteveMacenski/slam_toolbox.git
@@ -19,26 +15,77 @@ repositories:
     type: git
     url: https://github.com/sgk-000/yp_navigation2.git
     version: yp-foxy-devel
-  groot:
+  autoware/yp_autoware.iv:
     type: git
-    url: https://github.com/BehaviorTree/Groot.git
-    version: master
-  autoware:
-    type: git
-    url: https://gitlab.com/autowarefoundation/autoware.auto/AutowareAuto.git
+    url: https://github.com/dlab-ut/yp_autoware.iv.git
     version: v0.11.1
-
-  #drivers  
-  yp_drivers/hokuyo3d:
+  autoware/yp_autoware.launcher:
     type: git
-    url: https://github.com/at-wat/hokuyo3d.git
-    version: ros2
-    yp_drivers/urg_node:
+    url: https://github.com/dlab-ut/yp_autoware.launcher.git
+    version: v0.11.1
+    
+  #drivers
+  driver/urg_node:
     type: git
     url: https://github.com/sgk-000/urg_node.git
     version: yamabiko
-  yp_drivers/teleop_twist_joy:
+  driver/teleop_twist_joy:
     type: git
     url: https://github.com/ros2/teleop_twist_joy.git
     version: foxy
+  driver/ypspur_ros_bridge:
+    type: git
+    url: https://github.com/sgk-000/ypspur_ros_bridge.git
+    version: ros2
+  driver/usb_cam: # TODO remove after https://github.com/ros-drivers/usb_cam/pull/132 is available in foxy
+    type: git
+    url: https://github.com/tier4/usb_cam.git
+    version: f39210f4be530f3bddd7447fcf462d6efca1f748
+  driver/velodyne_vls:
+    type: git
+    url: https://github.com/tier4/velodyne_vls.git
+    version: 00760b6d7415ca8da46cf48813dc9249fef69ee7
+
+  #tools
+  tools/groot:
+    type: git
+    url: https://github.com/BehaviorTree/Groot.git
+    version: master
+  tools/quaternion_operation:
+    type: git
+    url: https://github.com/OUXT-Polaris/quaternion_operation.git
+    version: f08cd28b357f9feede55f1fb485cb21964f5d594
+  tools/grid_map:
+    type: git
+    url: https://github.com/ANYbotics/grid_map.git
+    version: a98472714697f753e9efd8da90d731ba23cb8dc1
+  tools/perception_pcl:
+    type: git
+    url: https://github.com/ros-perception/perception_pcl.git
+    version: 135a2c29e3f46904f586e963cc4a4ec3fe594a9c
+  tools/rclcpp_generic:
+    type: git
+    url: https://github.com/ApexAI/rclcpp_generic.git
+    version: 855580e8b58c4e676907f7edbb91f074f34c830f
+  tools/topic_tools:
+    type: git
+    url: https://github.com/tier4/topic_tools.git
+    version: 3ea584f0b5c7854b7e917ce0fae047f826a1962a
+  tools/rosbridge_suite:
+    type: git
+    url: https://github.com/tier4/rosbridge_suite.git
+    version: ef2e0534f2feb7f58260e8a5ebc3135da7220fc7
+  tools/rosauth:
+    type: git
+    url: https://github.com/GT-RAIL/rosauth.git
+    version: 2.0.2
+  tools/clock_publisher:
+    type: git
+    url: https://github.com/mitsudome-r/clock_publisher.git
+    version: 193e5dc81390ab967ba440e26c85671924f552d6
+  tools/rqt_runtime_monitor:
+    type: git
+    url: https://github.com/tier4/rqt_runtime_monitor.git
+    version: e76c9846da6a8728d03e80b8b01dca61c4e4d99d
+
   
